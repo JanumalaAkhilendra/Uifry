@@ -1,0 +1,139 @@
+.footer {
+    padding: 30px 4%;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.mobile_footer{
+    display: none;
+}
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.footer-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.copyright-text {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    margin: 10vh 0;
+}
+
+.footer ul li button {
+    background: black;
+    color: white;
+    width: 8vw;
+    border-radius: 6px;
+    height: 3vw;
+}
+
+.footer ul li input {
+    background: rgb(255, 255, 255);
+    color: rgb(81, 80, 80);
+    width: 8vw;
+    border-radius: 6px;
+    height: 3vw;
+    border: none;
+}
+
+.footer ul li span {
+    font-size: 25px;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+.footer ul li img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+@media (max-width:600px) {
+    .footer {
+        padding: 0px 0%;
+        max-width: 100vw;
+        margin: 0 auto;
+        height: 0;
+    }
+    .main_footer{
+        display: none;
+    }
+    .mobile_footer {
+        padding: 0px 0%;
+        margin-top: 10vh;
+        display: flex;
+        width: 90vw;
+        /* height: 90vh; */
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+    .inner_left_footer{
+        width: 30vw;
+        /* height: 100vh; */
+    }
+    .inner_right_footer{
+        width: 60vw;
+        /* height: 100vh; */
+    }
+    .mobile_footer ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+        list-style: none;
+    }
+    .mobile_footer ul li img {
+        width: 20px;
+        height: 20px;
+        /* display: none; */
+        margin-right: 10px;
+    }
+    .mobile_footer ul li span {
+        font-size: 15px;
+        /* font-weight: bolder; */
+        z-index: 3;
+    }
+    .copyright-text {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        text-align: center;
+        margin: 0vh 0;
+        padding: 5vh 0;
+        /* margin-bottom: 0vh; */
+    }
+
+    .footer ul li input {
+        background: rgb(255, 255, 255);
+        color: rgb(81, 80, 80);
+        width: 26vw;
+        border-radius: 6px;
+        height: 16vw;
+        border: none;
+    }
+
+    .footer ul li button {
+        background: black;
+        color: white;
+        width: 25vw;
+        border-radius: 6px;
+        height: 10vw;
+    }
+    #empty{
+        display: none;
+    }
+}

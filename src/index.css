@@ -1,0 +1,32 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+@font-face{
+  font-family: ClashDisplay;
+  src:url("../public/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Regular.otf"),
+  url('../public/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf')
+}
+
+/* .montserrat {
+  font-family: "ClashDisplay";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ClashDisplay;
+}
+
+body{
+  background: rgb(255, 255, 255);
+  color: rgb(63, 63, 63);
+  font-family: ClashDisplay;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}

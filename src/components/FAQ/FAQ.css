@@ -1,0 +1,326 @@
+.question {
+    width: 70vw;
+    height: 110vh;
+    margin: 10vh auto;
+}
+
+.beforeheading {
+    color: #FF5555;
+}
+
+.heading {
+    font-size: 50px;
+    width: 30vw;
+    margin-bottom: 10vh;
+}
+
+.question_flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.flexbox_content {
+    width: 35vw;
+    height: 25vh;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.flexbox_content h2 {
+    font-size: 30px;
+    width: 28vw;
+    height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.flexbox_content p {
+    font-size: 20px;
+    width: 32vw;
+    text-align: justify;
+    font-weight: 100;
+    height: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-transform: capitalize;
+}
+
+.flexbox_content:nth-child(1),
+.flexbox_content:nth-child(4),
+.flexbox_content:nth-child(5) {
+    background: #FF5555;
+    color: white;
+
+}
+
+/* FAQ section ends */
+
+/* Banner starts */
+.banner {
+    width: 70vw;
+    height: 70vh;
+    background-color: black;
+    margin: 5vh auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner h1 {
+    width: 547px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 12px 0px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.banner .group1 .ellipse:nth-child(1){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-142px, 56px) rotateZ(28deg);
+    border: 1px solid white;
+    border-radius: 50%;
+    z-index: -10;
+}
+.banner .group1 .ellipse:nth-child(2){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-178px, 96px) rotateZ(28deg);
+    border: 1px solid white;
+    border-radius: 50%;
+    z-index: -11;
+}
+.banner .group1 .ellipse:nth-child(3){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-208px, 129px) rotateZ(28deg);
+    border: 1px solid white;
+    border-radius: 50%;
+    z-index: -12;
+}
+.banner .group2 .ellipse:nth-child(1){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-350px, -429px) rotateZ(-16deg);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.banner  .group2 .ellipse:nth-child(2){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-300px, -429px) rotateZ(-12deg);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.banner .group2 .ellipse:nth-child(3){
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    transform: translate(-250px, -429px) rotateZ(-8deg);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.banner p {
+    width: 536px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.banner_content button img{
+    width: 20px;
+    height: 20px;
+}
+
+.mobile_phones{
+    /* width: 40vw; */
+    position: relative;
+}
+
+
+.banner_content button {
+    width: 12vw;
+    height: 8vh;
+    border-radius: 5px;
+    display: flex;
+    margin: 17px 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mobile_phones  img:nth-child(1){
+    position: absolute;
+    height: 60vh;
+    top: -25vh;
+    z-index: 2;
+    right: 24vh;
+}
+.mobile_phones  img:nth-child(2){
+    position: absolute;
+    height: 67vh;
+    right: 1vh;
+    top: -35vh;
+    z-index: 1;
+}
+.mobile_phones  img:nth-child(3){
+    position: absolute;
+    height: 60vh;
+    top: -34vh;
+    right: 0vh;
+}
+
+.banner_content {
+    width: 55vw;
+    margin: auto;
+}
+
+
+/* Banner Ends */
+
+@media (max-width:600px) {
+    .question {
+        width: 85vw;
+        height: 180vh;
+        margin: 2vh auto;
+    }
+    .heading {
+        font-size: 30px;
+        width: 85vw;
+        margin-bottom: 5vh;
+    }
+    .question_flexbox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 85vw;
+    }
+    .flexbox_content {
+        width: 85vw;
+        height: 25vh;
+        padding: 25px;
+        border-radius: 10px;
+    }
+    .flexbox_content:nth-child(odd){
+        background: #FF5555;
+        color: white;
+    }
+    .flexbox_content:nth-child(even){
+        background: #f9f9f9;
+        color: rgb(0, 0, 0);
+    }
+    .flexbox_content h2 {
+        font-size: 18px;
+        width: 75vw;
+    }
+    .flexbox_content p {
+        font-size: 14px;
+        width: 70vw;
+    }
+
+
+    .mobile_phones img:nth-child(2) {
+        position: absolute;
+        height: 39vh;
+        right: 1vh;
+        top: -42vh;
+        z-index: 1;
+    }
+    .banner {
+        width: 85vw;
+        height: 90vh;
+        background-color: black;
+        margin: 5vh auto;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+    }
+    .group1{
+        display: none;
+    }
+    .banner_content {
+        width: 70vw;
+        height: 72vh;
+        margin: auto;
+    }
+    .banner h1 {
+        width: 70vw;
+        height: 15vh;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* margin: 12px 0px; */
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .banner p {
+        width: 70vw;
+        height: 13vh;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .banner_content button {
+        width: 43vw;
+        height: 5vh;
+        border-radius: 5px;
+        display: flex;
+        margin: 17px 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .mobile_phones {
+        width: 83vw;
+        position: relative;
+    }
+    .mobile_phones img:nth-child(1) {
+        position: absolute;
+        height: 35vh;
+        top: -38vh;
+        z-index: 2;
+        right: 14vh;
+    }
+    .mobile_phones img:nth-child(2) {
+        position: absolute;
+        height: 39vh;
+        right: 1vh;
+        top: -42vh;
+        z-index: 1;
+    }
+    .mobile_phones img:nth-child(3) {
+        position: absolute;
+        height: 36vh;
+        top: -42vh;
+        right: 1vh;
+    }
+}

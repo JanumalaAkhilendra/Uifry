@@ -1,0 +1,323 @@
+/* Ellipse 45 */
+#P1 {
+    width: 20vh;
+    transform: translate(3px, -119px);
+}
+
+#P2 {
+    width: 20vh;
+    transform: translate(10px, 89px);
+}
+
+#P4 {
+    width: 20vh;
+    transform: translate(10px, -101px);
+}
+
+#P3 {
+    width: 20vh;
+    transform: translate(10px, 120px);
+}
+
+#P5 {
+    width: 30vh;
+}
+
+.Testimonials {
+    width: 90%;
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.testimonial_title {
+    text-align: center;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.testimonial_subtitle {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+}
+
+.image_testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    top: 15vh;
+    left: 20vh;
+    width: 70vh;
+    position: absolute;
+}
+
+.inner_image_testimonial {
+    width: 50vh;
+}
+
+.Testimonials .mobilephone img {
+    position: absolute;
+    width: 93.27px;
+    height: 93.27px;
+    left: calc(50% - 93.27px/2 - 466.94px);
+    top: calc(50% - 93.27px/2 + 649.64px);
+    border: 2.2474px solid #000000;
+}
+
+
+
+.Testimonials .leftsection {
+    width: 50vw;
+    margin: auto;
+
+}
+
+.Testimonials .rightsection {
+    position: relative;
+    width: 50vw;
+    padding: 0px 5vh;
+}
+
+.Testimonials .ellipse:nth-child(3) {
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    top: 89.3px;
+    left: 180px;
+    gap: 0px;
+    border-radius: 50%;
+    transform: rotatez(-45deg)translateX(20px);
+    opacity: 0px;
+    border: 1px solid #000000
+}
+
+.Testimonials .ellipse:nth-child(4) {
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    top: 89.3px;
+    left: 180px;
+    gap: 0px;
+    border-radius: 50%;
+    transform: rotatez(-45deg) translateX(60px);
+    opacity: 0px;
+    border: 1px solid #000000
+}
+
+.Testimonials .ellipse:nth-child(5) {
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    top: 89.3px;
+    left: 180px;
+    gap: 0px;
+    border-radius: 50%;
+    transform: rotatez(-45deg) translateX(-20px);
+    opacity: 0px;
+    border: 1px solid #000000
+}
+
+.Testimonials .ellipse:nth-child(2) {
+    position: relative;
+    width: 159.53px;
+    height: 189.68px;
+    right: -9vw;
+    z-index: -10;
+    top: 43vh;
+    background: #FDE598;
+    filter: blur(51.5773px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.Testimonials .ellipse:nth-child(1) {
+    position: relative;
+    width: 159.53px;
+    height: 189.68px;
+    right: -7vw;
+    top: 51vh;
+    background: #FF5555;
+    filter: blur(51.5773px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+
+/* the best financial accounting app ever! */
+.testimonial_title1 {
+    width: 442px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: start;
+    padding-bottom: 95px;
+
+}
+
+/* “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.” */
+
+.testimonial_content1 {
+    width: 442px;
+    height: 196px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+@media (max-width:600px) {
+    .Testimonials {
+        width: 90%;
+        height: 97vh;
+        display: flex;
+        margin-bottom: 15vh;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        flex-direction: column;
+        margin: 0 auto 15vh  auto;
+    }
+    .Testimonials .leftsection {
+        width: 80vw;
+        /* height: 33vh; */
+        margin: auto;
+    }
+    .Testimonials .ellipse:nth-child(1) {
+        position: relative;
+        width: 20vw;
+        height: 189.68px;
+        right: -7vw;
+        top: 22vh;
+        background: #FF5555;
+        filter: blur(51.5773px);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .Testimonials .ellipse:nth-child(2) {
+        position: relative;
+        width: 40vw;
+        height: 189.68px;
+        right: -9vw;
+        z-index: -10;
+        top: -1vh;
+        background: #FDE598;
+        filter: blur(51.5773px);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .Testimonials .ellipse:nth-child(3) {
+        position: absolute;
+        width: 45vw;
+        height: 40vh;
+        top: 89.3px;
+        left: 88px;
+        gap: 0px;
+        border-radius: 50%;
+        transform: rotatez(-45deg) translateX(-5px);
+        opacity: 0px;
+        border: 1px solid #000000;
+    }
+    .Testimonials .ellipse:nth-child(4) {
+        position: absolute;
+        width: 45vw;
+        height: 40vh;
+        top: 89.3px;
+        left: 80px;
+        gap: 0px;
+        border-radius: 50%;
+        transform: rotatez(-45deg) translateX(40px);
+        opacity: 0px;
+        border: 1px solid #000000;
+    }
+    .Testimonials .ellipse:nth-child(5) {
+        position: absolute;
+        width: 45vw;
+        height: 40vh;
+        top: 89.3px;
+        left: 95px;
+        gap: 0px;
+        border-radius: 50%;
+        transform: rotatez(-45deg) translateX(-50px);
+        opacity: 0px;
+        border: 1px solid #000000;
+    }
+    .image_testimonial {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 30vh;
+        top: 15vh;
+        left: 5vh;
+        width: 35vh;
+        position: absolute;
+    }
+    .inner_image_testimonial {
+        width: 15vh;
+    }
+    #P1 {
+        width: 10vh;
+        transform: translate(-7px, -56px);
+    }
+    #P2 {
+        width: 10vh;
+        transform: translate(-10px, 63px);
+    }
+    #P5 {
+        width: 15vh;
+    }
+    #P4 {
+        width: 10vh;
+        transform: translate(10px, -45px);
+    }
+    #P3 {
+        width: 10vh;
+        transform: translate(10px, 66px);
+    }
+    .Testimonials .rightsection {
+        position: relative;
+        width: 80vw;
+        /* height: 75vh; */
+        padding: 0px 0vh;
+    }
+    .testimonial_title1 {
+        width: 75vw;
+        height: 56px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #000000;
+        text-align: start;
+        padding-bottom: 95px;
+    }
+    .testimonial_content1 {
+        width: 75vw;
+        height: 196px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #000000;
+        opacity: 0.5;
+    }
+    .testimonial_subtitle {
+        text-align: center;
+        font-weight: bolder;
+        width: 75vw;
+        font-size: 30px;
+        margin: auto;
+        color: black;
+    }
+}
